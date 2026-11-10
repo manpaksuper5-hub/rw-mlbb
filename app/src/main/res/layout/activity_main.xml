@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3648"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#3C4C65"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="KK ESPORT SEASON 46"
+            android:textColor="#FF5A00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#3C4C65"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="KK ESPORT PREMIUM V3"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <Switch android:id="@+id/sw_rank_win" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="RANK MODE WIN" android:textColor="#FF5A00" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_rank_lose" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="RANK MODE LOSE" android:textColor="#FFFFFF" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_party" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="PARTY" android:textColor="#FF5A00" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_solo" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="SOLO" android:textColor="#FFFFFF" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_duo" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="DUO" android:textColor="#FF5A00" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_trio" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="TRIO" android:textColor="#FFFFFF" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_1hit" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="10dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="1 HIT (SAVE)" android:textColor="#FF5A00" android:textStyle="bold"/>
+        <Switch android:id="@+id/sw_maphack" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginBottom="24dp" android:background="#3C4C65" android:paddingStart="16dp" android:paddingEnd="16dp" android:text="MAP HACK (SAVE)" android:textColor="#FFFFFF" android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_launch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#FF5A00"
+            android:text="CONNECT &amp; LAUNCH ML"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+            
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Ready"
+            android:textColor="#00E5A0"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
